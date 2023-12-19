@@ -46,7 +46,7 @@
       let
         org = "pythoneda-sandbox";
         repo = "python-dep";
-        version = "0.0.100";
+        version = "0.0.108";
         sha256 = "1p3dsd2s4q9fvmra0dxddkbhiazcin5pz9gmfbrl2dfrl089wvb3";
         pname = "${org}-${repo}";
         pkgs = import nixos { inherit system; };
